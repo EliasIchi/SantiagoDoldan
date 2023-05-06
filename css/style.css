@@ -112,6 +112,17 @@ body {
 	letter-spacing: .05em;
 }
 
+h7, h8 [class^='heading-'] {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 100%;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-family: "calibri";
+	color: #030303;
+	font-size: 50px;
+}
+
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -5601,7 +5612,10 @@ html [class*='section-'].section-top-0 {
 * Light Backgrounds
 */
 .bg-default {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
+}
+.bg-elio {
+	background-color: rgb(234, 240, 247);
 }
 
 .bg-primary {
